@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  width: auto;
+  height: auto;
+  align-items: center;
+  padding-top: 100px;
+}
+
+body {
+  background-color: rgb(194, 181, 181);
+}
+
+.titles {
+  font-size: 50px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-left: 350px;
+}
+
+.number {
+  height: 100px;
+  width: 100px;
+  background-image: linear-gradient(to bottom right, #2a1f09, #fff5d7);
+
+  float: left;
+  margin: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.increment {
+  height: 100px;
+  width: 100px;
+  background-image: linear-gradient(to bottom right, #292620, #fff5d7);
+  border-radius: 70px;
+  float: left;
+  margin: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.decrement {
+  height: 100px;
+  width: 100px;
+  background-image: linear-gradient(to bottom right, #292620, #fff5d7);
+  border-radius: 70px;
+  float: left;
+  margin: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.reset {
+  height: 100px;
+  width: 100px;
+  background-image: linear-gradient(to bottom right, #292620, #fff5d7);
+  border-radius: 1000px;
+  float: right;
+  margin: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 10px 10px 5px rgb(117, 94, 94);
+}
